@@ -9,8 +9,8 @@ import (
 	"github.com/antchfx/xpath"
 	"github.com/jf-tech/go-corelib/ios"
 
-	"github.com/jf-tech/omniparser/extensions/omniv21/fileformat/flatfile"
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/extensions/omniv21/fileformat/flatfile"
+	"github.com/logward/omniparser/idr"
 )
 
 type line struct {
@@ -149,7 +149,7 @@ func (r *reader) readAndMatchHeaderFooterBasedEnvelope(
 }
 
 func (r *reader) readLine() error {
-	// https://github.com/jf-tech/omniparser/issues/213
+	// https://github.com/logward/omniparser/issues/213
 	//
 	// If we're dealing with multi-lined envelope (either by rows or by header/footer), this
 	// readLine() will be called several times, thus whatever ios.ByteReadLine, which uses

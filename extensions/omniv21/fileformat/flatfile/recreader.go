@@ -1,7 +1,7 @@
 package flatfile
 
 import (
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/idr"
 )
 
 // RecReader defines an interface for a flat file specific format to read data and match

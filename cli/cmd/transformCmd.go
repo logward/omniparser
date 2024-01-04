@@ -12,8 +12,8 @@ import (
 	"github.com/jf-tech/go-corelib/strs"
 	"github.com/spf13/cobra"
 
-	"github.com/jf-tech/omniparser"
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser"
+	"github.com/logward/omniparser/transformctx"
 )
 
 var (

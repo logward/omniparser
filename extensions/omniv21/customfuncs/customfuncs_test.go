@@ -9,7 +9,7 @@ import (
 	"github.com/jf-tech/go-corelib/jsons"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/idr"
 )
 
 func TestDumpOmniV21CustomFuncNames(t *testing.T) {

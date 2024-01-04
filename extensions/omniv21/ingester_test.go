@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jf-tech/omniparser/errs"
-	"github.com/jf-tech/omniparser/extensions/omniv21/transform"
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/errs"
+	"github.com/logward/omniparser/extensions/omniv21/transform"
+	"github.com/logward/omniparser/idr"
 )
 
 var errContinuableInTest = errors.New("continuable error")

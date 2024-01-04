@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser/transformctx"
 )
 
 // CustomFuncType is the type of custom function. Has to use interface{} given we support

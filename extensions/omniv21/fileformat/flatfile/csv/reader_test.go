@@ -14,7 +14,7 @@ import (
 	"github.com/jf-tech/go-corelib/ios"
 	"github.com/jf-tech/go-corelib/strs"
 	"github.com/jf-tech/go-corelib/testlib"
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/idr"
 	"github.com/stretchr/testify/assert"
 )
 

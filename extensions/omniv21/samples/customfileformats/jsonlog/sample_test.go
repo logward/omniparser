@@ -11,13 +11,13 @@ import (
 	"github.com/jf-tech/go-corelib/jsons"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jf-tech/omniparser"
-	"github.com/jf-tech/omniparser/customfuncs"
-	"github.com/jf-tech/omniparser/extensions/omniv21"
-	v21 "github.com/jf-tech/omniparser/extensions/omniv21/customfuncs"
-	"github.com/jf-tech/omniparser/extensions/omniv21/fileformat"
-	"github.com/jf-tech/omniparser/extensions/omniv21/samples/customfileformats/jsonlog/jsonlogformat"
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser"
+	"github.com/logward/omniparser/customfuncs"
+	"github.com/logward/omniparser/extensions/omniv21"
+	v21 "github.com/logward/omniparser/extensions/omniv21/customfuncs"
+	"github.com/logward/omniparser/extensions/omniv21/fileformat"
+	"github.com/logward/omniparser/extensions/omniv21/samples/customfileformats/jsonlog/jsonlogformat"
+	"github.com/logward/omniparser/transformctx"
 )
 
 func normalizeSeverity(_ *transformctx.Ctx, sev string) (string, error) {

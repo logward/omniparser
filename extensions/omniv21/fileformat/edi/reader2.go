@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"unicode/utf8"
+	"encoding/json"
 
 	"github.com/jf-tech/go-corelib/ios"
 	"github.com/jf-tech/go-corelib/strs"
@@ -208,6 +209,13 @@ func (r *NonValidatingReader) readToken(token []byte, rawSeg *RawSeg) error {
 	}
 	rawSeg.Name = string(rawSeg.Elems[0].Data)
 	rawSeg.valid = true
+
+	b, err := json.Marshal(r.rawSeg)
+	if err != nil {
+		return nil
+	}
+	fmt.Println(string(b))
+	
 	return nil
 }
 

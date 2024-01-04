@@ -1,9 +1,9 @@
 package customfuncs
 
 import (
-	"github.com/jf-tech/omniparser/customfuncs"
-	"github.com/jf-tech/omniparser/idr"
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser/customfuncs"
+	"github.com/logward/omniparser/idr"
+	"github.com/logward/omniparser/transformctx"
 )
 
 // OmniV21CustomFuncs contains 'omni.2.1' specific custom funcs.

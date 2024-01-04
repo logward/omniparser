@@ -7,7 +7,7 @@ import (
 	"github.com/jf-tech/go-corelib/maths"
 	"github.com/jf-tech/go-corelib/strs"
 	"github.com/jf-tech/go-corelib/testlib"
-	"github.com/jf-tech/omniparser/extensions/omniv21/fileformat/flatfile"
+	"github.com/logward/omniparser/extensions/omniv21/fileformat/flatfile"
 	"github.com/stretchr/testify/assert"
 )
 

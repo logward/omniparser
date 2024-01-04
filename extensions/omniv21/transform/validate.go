@@ -10,7 +10,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/jf-tech/go-corelib/strs"
 
-	"github.com/jf-tech/omniparser/customfuncs"
+	"github.com/logward/omniparser/customfuncs"
 )
 
 type validateCtx struct {

@@ -8,7 +8,7 @@ import (
 	"github.com/jf-tech/go-corelib/caches"
 	"github.com/jf-tech/go-corelib/times"
 
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser/transformctx"
 )
 
 const (

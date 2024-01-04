@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/idr"
 )
 
 func (p *parseCtx) invokeCustomFunc(n *idr.Node, customFuncDecl *CustomFuncDecl) (interface{}, error) {

@@ -11,7 +11,7 @@ import (
 	"github.com/jf-tech/go-corelib/ios"
 	"github.com/jf-tech/go-corelib/maths"
 
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/idr"
 )
 
 // ErrInvalidHeader indicates the header of the CSV input is corrupted, mismatched, or simply

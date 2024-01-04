@@ -12,7 +12,7 @@ import (
 	"github.com/jf-tech/go-corelib/ios"
 	"github.com/jf-tech/go-corelib/strs"
 
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/idr"
 )
 
 // ErrLogReadingFailed indicates the reader fails to read out a complete non-corrupted

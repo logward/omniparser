@@ -6,7 +6,7 @@ import (
 	"github.com/bradleyjkemp/cupaloy"
 	"github.com/jf-tech/go-corelib/jsons"
 
-	"github.com/jf-tech/omniparser/extensions/omniv21/samples"
+	"github.com/logward/omniparser/extensions/omniv21/samples"
 )
 
 func Test1_DateTime_Parse_And_Format(t *testing.T) {

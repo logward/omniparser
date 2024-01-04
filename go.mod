@@ -1,6 +1,6 @@
-module github.com/jf-tech/omniparser
+module github.com/logward/omniparser
 
-go 1.14
+go 1.20
 
 require (
 	github.com/antchfx/xmlquery v1.3.1

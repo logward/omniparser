@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jf-tech/omniparser/errs"
+	"github.com/logward/omniparser/errs"
 )
 
 func TestIsErrNodeReadingFailed(t *testing.T) {

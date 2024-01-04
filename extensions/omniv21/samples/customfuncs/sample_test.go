@@ -12,12 +12,12 @@ import (
 	"github.com/jf-tech/go-corelib/jsons"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jf-tech/omniparser"
-	"github.com/jf-tech/omniparser/customfuncs"
-	"github.com/jf-tech/omniparser/extensions/omniv21"
-	v21 "github.com/jf-tech/omniparser/extensions/omniv21/customfuncs"
-	"github.com/jf-tech/omniparser/idr"
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser"
+	"github.com/logward/omniparser/customfuncs"
+	"github.com/logward/omniparser/extensions/omniv21"
+	v21 "github.com/logward/omniparser/extensions/omniv21/customfuncs"
+	"github.com/logward/omniparser/idr"
+	"github.com/logward/omniparser/transformctx"
 )
 
 func TestSample(t *testing.T) {

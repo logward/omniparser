@@ -3,10 +3,10 @@ package schemahandler
 import (
 	"io"
 
-	"github.com/jf-tech/omniparser/customfuncs"
-	"github.com/jf-tech/omniparser/errs"
-	"github.com/jf-tech/omniparser/header"
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser/customfuncs"
+	"github.com/logward/omniparser/errs"
+	"github.com/logward/omniparser/header"
+	"github.com/logward/omniparser/transformctx"
 )
 
 // CreateCtx is a context object for CreateFunc.

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/idr"
 )
 
 // ErrNodeReadingFailed indicates the reader fails to read out a complete non-corrupted

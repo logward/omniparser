@@ -6,7 +6,7 @@ import (
 
 	"github.com/antchfx/xpath"
 
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/idr"
 )
 
 // HierarchyReader orchestrates reading, matching, and converting (to IDR) of

@@ -9,9 +9,9 @@ import (
 	"github.com/bradleyjkemp/cupaloy"
 	"github.com/jf-tech/go-corelib/jsons"
 
-	"github.com/jf-tech/omniparser"
-	"github.com/jf-tech/omniparser/extensions/omniv21/samples"
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser"
+	"github.com/logward/omniparser/extensions/omniv21/samples"
+	"github.com/logward/omniparser/transformctx"
 )
 
 func Test1_Weather_Data_CSV(t *testing.T) {

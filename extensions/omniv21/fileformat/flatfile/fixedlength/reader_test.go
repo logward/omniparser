@@ -11,8 +11,8 @@ import (
 	"github.com/bradleyjkemp/cupaloy"
 	"github.com/jf-tech/go-corelib/strs"
 	"github.com/jf-tech/go-corelib/testlib"
-	"github.com/jf-tech/omniparser/extensions/omniv21/transform"
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/extensions/omniv21/transform"
+	"github.com/logward/omniparser/idr"
 	"github.com/stretchr/testify/assert"
 )
 

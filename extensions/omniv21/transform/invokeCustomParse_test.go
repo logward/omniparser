@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jf-tech/omniparser/idr"
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser/idr"
+	"github.com/logward/omniparser/transformctx"
 )
 
 func TestInvokeCustomParse(t *testing.T) {

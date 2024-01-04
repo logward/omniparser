@@ -1,7 +1,7 @@
 package transformctx
 
 import (
-	"github.com/jf-tech/omniparser/errs"
+	"github.com/logward/omniparser/errs"
 )
 
 // Ctx is the context object used throughout a Transform operation.

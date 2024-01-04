@@ -29,6 +29,22 @@ const (
 	rootSegName = "#root"
 )
 
+// section {
+// 	element 1 - M
+// 		compoment 1
+// 		compoment 2
+// 	element 2 - O
+// 		compoment 1
+// 		compoment 2
+// }
+
+// section {
+// 	compoment E 1, C : 1 C : M, E : M
+// 	compoment E 1, C : 2 C : O, E : M
+// 	compoment E 2, C : 1 C : M, E : O
+// 	compoment E 2, C : 2 C : O, E : O
+// }
+
 // Elem describes an element inside an EDI segment.
 type Elem struct {
 	Name           string  `json:"name,omitempty"`
@@ -36,6 +52,7 @@ type Elem struct {
 	CompIndex      *int    `json:"component_index,omitempty"`
 	EmptyIfMissing bool    `json:"empty_if_missing,omitempty"` // Deprecated, use Default
 	Default        *string `json:"default,omitempty"`
+	DefaultElement *string `json:"default_element,omitempty"`
 }
 
 func (e Elem) compIndex() int {

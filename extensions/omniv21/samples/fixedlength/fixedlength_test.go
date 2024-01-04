@@ -8,10 +8,10 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 	"github.com/jf-tech/go-corelib/jsons"
-	"github.com/jf-tech/omniparser"
+	"github.com/logward/omniparser"
 
-	"github.com/jf-tech/omniparser/extensions/omniv21/samples"
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser/extensions/omniv21/samples"
+	"github.com/logward/omniparser/transformctx"
 )
 
 type testCase struct {

@@ -7,10 +7,10 @@ import (
 	"github.com/jf-tech/go-corelib/strs"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jf-tech/omniparser/customfuncs"
-	v21 "github.com/jf-tech/omniparser/extensions/omniv21/customfuncs"
-	"github.com/jf-tech/omniparser/idr"
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser/customfuncs"
+	v21 "github.com/logward/omniparser/extensions/omniv21/customfuncs"
+	"github.com/logward/omniparser/idr"
+	"github.com/logward/omniparser/transformctx"
 )
 
 func testNode() *idr.Node {

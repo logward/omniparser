@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/jf-tech/omniparser/cli/cmd"
+	"github.com/logward/omniparser/cli/cmd"
 )
 
 var (

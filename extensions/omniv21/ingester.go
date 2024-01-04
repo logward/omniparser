@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/jf-tech/omniparser/customfuncs"
-	"github.com/jf-tech/omniparser/errs"
-	"github.com/jf-tech/omniparser/extensions/omniv21/fileformat"
-	"github.com/jf-tech/omniparser/extensions/omniv21/transform"
-	"github.com/jf-tech/omniparser/idr"
-	"github.com/jf-tech/omniparser/schemahandler"
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser/customfuncs"
+	"github.com/logward/omniparser/errs"
+	"github.com/logward/omniparser/extensions/omniv21/fileformat"
+	"github.com/logward/omniparser/extensions/omniv21/transform"
+	"github.com/logward/omniparser/idr"
+	"github.com/logward/omniparser/schemahandler"
+	"github.com/logward/omniparser/transformctx"
 )
 
 type rawRecord struct {

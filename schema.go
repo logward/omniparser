@@ -8,14 +8,14 @@ import (
 
 	"github.com/jf-tech/go-corelib/ios"
 
-	"github.com/jf-tech/omniparser/customfuncs"
-	"github.com/jf-tech/omniparser/errs"
-	"github.com/jf-tech/omniparser/extensions/omniv21"
-	v21 "github.com/jf-tech/omniparser/extensions/omniv21/customfuncs"
-	"github.com/jf-tech/omniparser/header"
-	"github.com/jf-tech/omniparser/schemahandler"
-	"github.com/jf-tech/omniparser/transformctx"
-	"github.com/jf-tech/omniparser/validation"
+	"github.com/logward/omniparser/customfuncs"
+	"github.com/logward/omniparser/errs"
+	"github.com/logward/omniparser/extensions/omniv21"
+	v21 "github.com/logward/omniparser/extensions/omniv21/customfuncs"
+	"github.com/logward/omniparser/header"
+	"github.com/logward/omniparser/schemahandler"
+	"github.com/logward/omniparser/transformctx"
+	"github.com/logward/omniparser/validation"
 )
 
 // Schema is an interface that represents a schema used by omniparser.

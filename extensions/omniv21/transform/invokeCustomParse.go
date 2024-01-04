@@ -3,8 +3,8 @@ package transform
 import (
 	"reflect"
 
-	"github.com/jf-tech/omniparser/idr"
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser/idr"
+	"github.com/logward/omniparser/transformctx"
 )
 
 // CustomParseFuncType represents a custom_parse function type. Deprecated. Use customfuncs.CustomFuncType.

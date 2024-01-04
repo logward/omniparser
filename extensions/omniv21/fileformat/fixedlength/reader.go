@@ -11,7 +11,7 @@ import (
 	"github.com/jf-tech/go-corelib/caches"
 	"github.com/jf-tech/go-corelib/ios"
 
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/idr"
 )
 
 // ErrInvalidEnvelope indicates a fixed-length input envelope is invalid. This is a fatal, non-continuable error.

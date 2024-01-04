@@ -13,7 +13,7 @@ import (
 	"github.com/jf-tech/go-corelib/strs"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/idr"
 )
 
 type testRecReader struct {

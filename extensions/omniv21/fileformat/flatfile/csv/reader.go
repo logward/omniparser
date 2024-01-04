@@ -8,8 +8,8 @@ import (
 	"github.com/antchfx/xpath"
 	"github.com/jf-tech/go-corelib/ios"
 
-	"github.com/jf-tech/omniparser/extensions/omniv21/fileformat/flatfile"
-	"github.com/jf-tech/omniparser/idr"
+	"github.com/logward/omniparser/extensions/omniv21/fileformat/flatfile"
+	"github.com/logward/omniparser/idr"
 )
 
 type line struct {

@@ -10,9 +10,9 @@ import (
 	"github.com/jf-tech/go-corelib/jsons"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jf-tech/omniparser"
-	"github.com/jf-tech/omniparser/idr"
-	"github.com/jf-tech/omniparser/transformctx"
+	"github.com/logward/omniparser"
+	"github.com/logward/omniparser/idr"
+	"github.com/logward/omniparser/transformctx"
 )
 
 // SampleTestCommon is a test helper for sample tests

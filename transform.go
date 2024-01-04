@@ -3,8 +3,8 @@ package omniparser
 import (
 	"errors"
 
-	"github.com/jf-tech/omniparser/errs"
-	"github.com/jf-tech/omniparser/schemahandler"
+	"github.com/logward/omniparser/errs"
+	"github.com/logward/omniparser/schemahandler"
 )
 
 // Transform is an interface that represents one input stream ingestion and transform

@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jf-tech/omniparser/errs"
-	"github.com/jf-tech/omniparser/schemahandler"
+	"github.com/logward/omniparser/errs"
+	"github.com/logward/omniparser/schemahandler"
 )
 
 type testReadCall struct {
