@@ -51,6 +51,7 @@ const (
                             "component_index": { "type": "integer", "minimum": 1 },
                             "empty_if_missing": { "type": "boolean","$comment": "deprecated, use 'default'" },
                             "default": { "type": "string" },
+                            "default_element": { "type": "string" },
                             "_comment": { "$ref": "#/definitions/value_comment" }
                         },
                         "required": [ "name", "index" ],

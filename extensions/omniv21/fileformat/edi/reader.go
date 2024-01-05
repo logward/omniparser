@@ -103,8 +103,12 @@ func (r *ediReader) rawSegToNode(segDecl *SegDecl) (*idr.Node, error) {
 		panic("unprocessedRawSeg is not valid")
 	}
 	n := idr.CreateNode(idr.ElementNode, segDecl.Name)
+	indexOptional := map[int]string{}
 	for _, elemDecl := range segDecl.Elems {
 		found := false
+		if elemDecl.DefaultElement != nil {
+			indexOptional[elemDecl.compIndex()] = *elemDecl.DefaultElement
+		}
 		for _, rawElem := range r.unprocessedRawSeg.Elems {
 			if rawElem.ElemIndex == elemDecl.Index && rawElem.CompIndex == elemDecl.compIndex() {
 				elemN := idr.CreateNode(idr.ElementNode, elemDecl.Name)
@@ -124,6 +128,24 @@ func (r *ediReader) rawSegToNode(segDecl *SegDecl) (*idr.Node, error) {
 			data := ""
 			if elemDecl.Default != nil {
 				data = *elemDecl.Default
+			}
+			elemV := idr.CreateNode(idr.TextNode, data)
+			idr.AddChild(elemN, elemV)
+			continue
+		}
+
+		// 	component E 2, C : 1 C : M (nul), E : O (not)
+		// 	component E 2, C : 2 C : O (not), E : O (not)
+
+		dataFromDefaultIndex, foundInMap := indexOptional[elemDecl.compIndex()]
+		if elemDecl.DefaultElement != nil || foundInMap {
+			elemN := idr.CreateNode(idr.ElementNode, elemDecl.Name)
+			idr.AddChild(n, elemN)
+			data := ""
+			if elemDecl.Default != nil {
+				data = *elemDecl.Default
+			} else if foundInMap {
+				data = dataFromDefaultIndex
 			}
 			elemV := idr.CreateNode(idr.TextNode, data)
 			idr.AddChild(elemN, elemV)
